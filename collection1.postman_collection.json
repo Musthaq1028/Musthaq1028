@@ -1,0 +1,419 @@
+{
+	"info": {
+		"_postman_id": "44ae27d5-f2bd-4f48-880b-2266ae622b36",
+		"name": "collection1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28335020"
+	},
+	"item": [
+		{
+			"name": "https://newsapi.org/v2/top-headlines?sources=cnn&apiKey=0d9e35dfa3c140aab8bf9cdd70df957f",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://newsapi.org/v2/top-headlines?sources=cnn&apiKey=0d9e35dfa3c140aab8bf9cdd70df957f",
+					"protocol": "https",
+					"host": [
+						"newsapi",
+						"org"
+					],
+					"path": [
+						"v2",
+						"top-headlines"
+					],
+					"query": [
+						{
+							"key": "sources",
+							"value": "cnn"
+						},
+						{
+							"key": "apiKey",
+							"value": "0d9e35dfa3c140aab8bf9cdd70df957f"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b6907d289e10d714a6e88b30761fae22",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b6907d289e10d714a6e88b30761fae22",
+					"protocol": "https",
+					"host": [
+						"samples",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "London,uk"
+						},
+						{
+							"key": "appid",
+							"value": "b6907d289e10d714a6e88b30761fae22"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api.openweathermap.org/data/2.5/weather?q=London&appid=ba91e931326e40738534796eef2330ba",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "api.openweathermap.org/data/2.5/weather?q=New York&appid=ba91e931326e40738534796eef2330ba",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "New York"
+						},
+						{
+							"key": "appid",
+							"value": "ba91e931326e40738534796eef2330ba"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api.openweathermap.org/data/2.5/weather?q=London&appid=ba91e931326e40738534796eef2330ba Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "api.openweathermap.org/data/2.5/weather?q=Atlanta&appid=ba91e931326e40738534796eef2330ba",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Atlanta"
+						},
+						{
+							"key": "appid",
+							"value": "ba91e931326e40738534796eef2330ba"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api.openweathermap.org/data/2.5/weather?q=London&appid=ba91e931326e40738534796eef2330ba Copy 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "api.openweathermap.org/data/2.5/weather?q=Columbia&appid=ba91e931326e40738534796eef2330ba",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Columbia"
+						},
+						{
+							"key": "appid",
+							"value": "ba91e931326e40738534796eef2330ba"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api.openweathermap.org/data/2.5/weather?q=London&appid=ba91e931326e40738534796eef2330ba Copy 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "api.openweathermap.org/data/2.5/weather?q=Columbia&appid=ba91e931326e40738534796eef2330ba",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Columbia"
+						},
+						{
+							"key": "appid",
+							"value": "ba91e931326e40738534796eef2330ba"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api.openweathermap.org/data/2.5/weather?id=2172797&appid=ba91e931326e40738534796eef2330ba",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "api.openweathermap.org/data/2.5/weather?id=2172797&appid=ba91e931326e40738534796eef2330ba",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2172797"
+						},
+						{
+							"key": "appid",
+							"value": "ba91e931326e40738534796eef2330ba"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=ba91e931326e40738534796eef2330ba",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "api.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=ba91e931326e40738534796eef2330ba",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "35"
+						},
+						{
+							"key": "lon",
+							"value": "139"
+						},
+						{
+							"key": "appid",
+							"value": "ba91e931326e40738534796eef2330ba"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://216.10.245.166/maps/api/place/add/json?key= qaclick123",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"location\":{\n        \"lat\" : -38.383494,\n        \"lng\" : 33.427362\n    },\n    \"accuracy\":50,\n    \"name\":\"Frontline house\",\n    \"phone_number\":\"(+91) 983 893 3937\",\n    \"address\" : \"29, side layout, cohen 09\",\n    \"types\": [\"shoe park\",\"shop\"],\n    \"website\" : \"http://google.com\",\n    \"language\" : \"French-IN\"\n}\n"
+				},
+				"url": {
+					"raw": "http://216.10.245.166/maps/api/place/add/json?key= qaclick123",
+					"protocol": "http",
+					"host": [
+						"216",
+						"10",
+						"245",
+						"166"
+					],
+					"path": [
+						"maps",
+						"api",
+						"place",
+						"add",
+						"json"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": " qaclick123"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://216.10.245.166/maps/api/place/add/xml?key= qaclick123",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<root>\n    <location>\n        <lat>-38.383494</lat>\n        <lng>33.427362</lng>\n    </location>\n    <accuracy>50</accuracy>\n    <name>The Mens store</name>\n    <phone_number>(+91) 983 893 3937</phone_number>\n    <address>Anna Salai, Chennai</address>\n    <types>shoe park</types>\n    <types>kadai</types>\n    <website>http://google.com</website>\n    <language>tamil-IN</language>\n</root>\n",
+					"options": {
+						"raw": {
+							"language": "xml"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://216.10.245.166/maps/api/place/add/xml?key= qaclick123",
+					"protocol": "http",
+					"host": [
+						"216",
+						"10",
+						"245",
+						"166"
+					],
+					"path": [
+						"maps",
+						"api",
+						"place",
+						"add",
+						"xml"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": " qaclick123"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://216.10.245.166/maps/api/place/delete/xml?key=qaclick123",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<root>\n    <place_id>fdd2f7bf74afae3f1462833d43a53678</place_id>\n</root>\n"
+				},
+				"url": {
+					"raw": "http://216.10.245.166/maps/api/place/delete/xml?key=qaclick123",
+					"protocol": "http",
+					"host": [
+						"216",
+						"10",
+						"245",
+						"166"
+					],
+					"path": [
+						"maps",
+						"api",
+						"place",
+						"delete",
+						"xml"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "qaclick123"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"pm.test(\"Verify Latitude and Longitude\", function () {",
+					"    const responseJson = pm.response.json();",
+					"    pm.expect(responseJson.coord.lat).to.eql(51.51);",
+					"    pm.expect(responseJson.coord.lon).to.eql(-0.13);",
+					"});",
+					"",
+					"Test case 1: Verify the weather description.",
+					"",
+					"pm.test(\"Verify Weather Description\", function () {",
+					"    const responseJson = pm.response.json();",
+					"    pm.expect(responseJson.weather[0].description).to.be.a(\"string\");",
+					"});",
+					"",
+					"Test case 2: Verify the temperature is within a specific range.",
+					"",
+					"pm.test(\"Verify Temperature Range\", function () {",
+					"    const responseJson = pm.response.json();",
+					"    pm.expect(responseJson.main.temp).to.be.within(0, 100);",
+					"});",
+					"",
+					"Test case 3: Verify the city name.",
+					"",
+					"pm.test(\"Verify City Name\", function () {",
+					"    const responseJson = pm.response.json();",
+					"    pm.expect(responseJson.name).to.eql(\"London\");",
+					"});",
+					"",
+					""
+				]
+			}
+		}
+	]
+}
